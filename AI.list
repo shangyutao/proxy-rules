@@ -1,0 +1,24 @@
+# Gemini, Claude, Muse (muse.ai) - core domain rules
+# Updated: 2026-11-03
+# Assign a policy when referencing this RULE-SET.
+# Shared login/CDN domains and third-party integrations are not exhaustive.
+
+# Gemini / Google AI Studio
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,generativeai.google
+
+# Claude
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Muse: assumes muse.ai, as shown in the supplied screenshot
+DOMAIN-SUFFIX,muse.ai
