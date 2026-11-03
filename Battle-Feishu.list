@@ -25,3 +25,11 @@ DOMAIN-SUFFIX,bnetshopus.akamaized.net
 # Feishu: avoid routing all shared ByteDance CDN domains directly
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishucdn.com
+
+# Additional direct services: core domains only
+# Existing China rules already cover 1688.com, dingtalk.com and wps.com.
+# No WeChat, QQ, Bilibili or broad shared-CDN rules added here.
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,kdocs.cn
