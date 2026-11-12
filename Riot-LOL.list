@@ -1,0 +1,28 @@
+# Riot Client / League of Legends - domain rules
+# Updated: 2026-11-12
+# Shadowrocket: reference this RULE-SET with policy DIRECT.
+# Place above other game/proxy rule sets and FINAL.
+# Domain coverage only: IP-only game sessions and accelerator tunnels
+# may require separate verified rules. This does not bypass the VPN tunnel.
+# Core domains selected from:
+# https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Riot/Riot.list
+
+# Riot authentication, client configuration, patching and services
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN-SUFFIX,riotgames.net
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,rstatic.net
+DOMAIN-SUFFIX,rgpub.io
+DOMAIN-SUFFIX,pvp.net
+
+# League of Legends sites and resources
+DOMAIN-SUFFIX,leagueoflegends.com
+DOMAIN-SUFFIX,leagueoflegends.net
+DOMAIN-SUFFIX,lolstatic.com
+DOMAIN-SUFFIX,lolusercontent.com
+DOMAIN-SUFFIX,lolesports.com
+
+# Riot-specific CDN hosts only; do not bypass all shared CDN traffic
+DOMAIN-SUFFIX,lolstatic-a.akamaihd.net
+DOMAIN-SUFFIX,lolstore-a.akamaihd.net
+DOMAIN-SUFFIX,riotgamespatcher-a.akamaihd.net
