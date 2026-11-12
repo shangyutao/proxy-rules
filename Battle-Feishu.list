@@ -1,5 +1,5 @@
 # Battle.net / Blizzard + Feishu - core and selected CDN domain rules
-# Updated: 2026-11-03
+# Updated: 2026-11-12
 # Assign DIRECT when referencing this RULE-SET.
 # Does not guarantee coverage of every game server or meeting/media IP.
 
@@ -33,3 +33,4 @@ DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,kdocs.cn
+DOMAIN-SUFFIX,ddys.app
