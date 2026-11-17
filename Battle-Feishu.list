@@ -34,3 +34,7 @@ DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,kdocs.cn
 DOMAIN-SUFFIX,ddys.app
+
+# CreaLink and Douyin web — added 2026-11-17
+DOMAIN-SUFFIX,crealink.cc
+DOMAIN-SUFFIX,douyin.com
